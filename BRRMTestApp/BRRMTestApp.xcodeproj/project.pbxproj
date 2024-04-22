@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00738E72BD6B4CB00CAD1E2 /* VehiclesData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00738E32BD6B4CB00CAD1E2 /* VehiclesData+CoreDataClass.swift */; };
+		D00738E82BD6B4CB00CAD1E2 /* VehiclesData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00738E42BD6B4CB00CAD1E2 /* VehiclesData+CoreDataProperties.swift */; };
+		D00738E92BD6B4CB00CAD1E2 /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00738E52BD6B4CB00CAD1E2 /* UserData+CoreDataClass.swift */; };
+		D00738EA2BD6B4CB00CAD1E2 /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00738E62BD6B4CB00CAD1E2 /* UserData+CoreDataProperties.swift */; };
 		D0A2A95C2BD527A10059005C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A95B2BD527A10059005C /* AppDelegate.swift */; };
 		D0A2A95E2BD527A10059005C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A95D2BD527A10059005C /* SceneDelegate.swift */; };
 		D0A2A9602BD527A10059005C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2A95F2BD527A10059005C /* LoginViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D00738E32BD6B4CB00CAD1E2 /* VehiclesData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VehiclesData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D00738E42BD6B4CB00CAD1E2 /* VehiclesData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VehiclesData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D00738E52BD6B4CB00CAD1E2 /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D00738E62BD6B4CB00CAD1E2 /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D0A2A9582BD527A10059005C /* BRRMTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRRMTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A2A95B2BD527A10059005C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A2A95D2BD527A10059005C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +94,10 @@
 		D0A2A94F2BD527A00059005C = {
 			isa = PBXGroup;
 			children = (
+				D00738E32BD6B4CB00CAD1E2 /* VehiclesData+CoreDataClass.swift */,
+				D00738E42BD6B4CB00CAD1E2 /* VehiclesData+CoreDataProperties.swift */,
+				D00738E52BD6B4CB00CAD1E2 /* UserData+CoreDataClass.swift */,
+				D00738E62BD6B4CB00CAD1E2 /* UserData+CoreDataProperties.swift */,
 				D0A2A95A2BD527A10059005C /* BRRMTestApp */,
 				D0A2A9592BD527A10059005C /* Products */,
 			);
@@ -266,8 +278,10 @@
 			files = (
 				D0A2A9662BD527A10059005C /* BRRMTestApp.xcdatamodeld in Sources */,
 				D0A2A9AA2BD5A3990059005C /* VehicleTableViewCell.swift in Sources */,
+				D00738E72BD6B4CB00CAD1E2 /* VehiclesData+CoreDataClass.swift in Sources */,
 				D0A2A9A42BD536350059005C /* CreditV.swift in Sources */,
 				D0A2A9962BD533B20059005C /* Client.swift in Sources */,
+				D00738EA2BD6B4CB00CAD1E2 /* UserData+CoreDataProperties.swift in Sources */,
 				D0A2A9A62BD536350059005C /* ClientV.swift in Sources */,
 				D0A2A97D2BD529500059005C /* CreateVehicleViewModel.swift in Sources */,
 				D0A2A9952BD533B20059005C /* Role.swift in Sources */,
@@ -275,6 +289,7 @@
 				D0A2A97B2BD5293D0059005C /* VehiclesViewModel.swift in Sources */,
 				D0A2A9A32BD536350059005C /* VehicleInfo.swift in Sources */,
 				D0A2A9602BD527A10059005C /* LoginViewController.swift in Sources */,
+				D00738E82BD6B4CB00CAD1E2 /* VehiclesData+CoreDataProperties.swift in Sources */,
 				D0A2A95C2BD527A10059005C /* AppDelegate.swift in Sources */,
 				D0A2A95E2BD527A10059005C /* SceneDelegate.swift in Sources */,
 				D0A2A9912BD533B20059005C /* LoginResponse.swift in Sources */,
@@ -286,6 +301,7 @@
 				D0A2A9902BD533B20059005C /* User.swift in Sources */,
 				D0A2A9942BD533B20059005C /* Customer.swift in Sources */,
 				D0A2A9762BD528B70059005C /* CreateVehicleViewController.swift in Sources */,
+				D00738E92BD6B4CB00CAD1E2 /* UserData+CoreDataClass.swift in Sources */,
 				D0A2A9922BD533B20059005C /* UserSettings.swift in Sources */,
 				D0A2A9792BD529290059005C /* LoginViewModel.swift in Sources */,
 				D0A2A9A22BD536350059005C /* UserV.swift in Sources */,
